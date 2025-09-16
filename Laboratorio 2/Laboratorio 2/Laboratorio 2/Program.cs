@@ -13,7 +13,7 @@ namespace Laboratorio2
             client.Age = 15;
             client.Id = 1;
 
-            Console.WriteLine(client.GetFullName);
+            Console.WriteLine(client.GetFullName());
         }
     }
 
@@ -31,4 +31,5 @@ namespace Laboratorio2
             return FirstName + " " + LastName;
         }
     }
+
 }
