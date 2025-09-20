@@ -20,13 +20,11 @@ namespace Laboratorio3
 
     public class CalculosMatematicos
     {
-        //Declarando variables de instancia en clase.
         public int primerNumero { get; set; }
         public int segundoNumero { get; set; }
 
         public double calcular()
         {
-            //Utilizando variables de instancia dentro de metodos de la clase.
             return (primerNumero + segundoNumero) * (primerNumero - segundoNumero);
         }
     }
