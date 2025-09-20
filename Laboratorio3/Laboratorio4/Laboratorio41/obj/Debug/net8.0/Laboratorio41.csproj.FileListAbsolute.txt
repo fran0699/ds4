@@ -1,0 +1,15 @@
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\bin\Debug\net8.0\Laboratorio41.exe
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\bin\Debug\net8.0\Laboratorio41.deps.json
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\bin\Debug\net8.0\Laboratorio41.runtimeconfig.json
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\bin\Debug\net8.0\Laboratorio41.dll
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\bin\Debug\net8.0\Laboratorio41.pdb
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.AssemblyInfo.cs
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.sourcelink.json
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.dll
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\refint\Laboratorio41.dll
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.pdb
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\Laboratorio41.genruntimeconfig.cache
+C:\Users\franc\source\repos\ds4\Laboratorio3\Laboratorio4\Laboratorio41\obj\Debug\net8.0\ref\Laboratorio41.dll
