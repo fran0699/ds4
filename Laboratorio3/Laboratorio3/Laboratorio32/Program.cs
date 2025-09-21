@@ -14,7 +14,7 @@ namespace Laboratorio32
             Console.Write("Introduce la altura del rectángulo: ");
             calculo.altura = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("El área del rectángulo con base {0} y altura {1} es: {2}", calculo.baseR, calculo.altura, calculo.calcular());
+            Console.WriteLine("El perímetro del rectángulo con base {0} y altura {1} es: {2}", calculo.baseR, calculo.altura, calculo.calcular());
         }
     }
 
@@ -25,7 +25,7 @@ namespace Laboratorio32
 
         public double calcular()
         {
-            return baseR * altura;
+            return (baseR*2) + (altura*2);
         }
     }
 

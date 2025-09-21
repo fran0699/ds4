@@ -11,7 +11,7 @@ namespace Laboratorio31
             Console.Write("Introduzca el radio del círculo: ");
             calculo.radio = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("El area del círculo con radio {0} es: {1}", calculo.radio, calculo.calcular());
+            Console.WriteLine("El area del círculo con radio {0} es: {1}", calculo.radio, calculo.calculoArea());
         }
     }
 
@@ -19,7 +19,7 @@ namespace Laboratorio31
     {
         public double radio { get; set; }
 
-        public double calcular()
+        public double calculoArea()
         {
             double pi = 3.1416;
             return pi*(radio*radio);
