@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio71\\Laboratorio7\\Laboratorio71.csproj": {}
+    "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio7\\Laboratorio71\\Laboratorio71.csproj": {}
   },
   "projects": {
-    "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio71\\Laboratorio7\\Laboratorio71.csproj": {
+    "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio7\\Laboratorio71\\Laboratorio71.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio71\\Laboratorio7\\Laboratorio71.csproj",
+        "projectUniqueName": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio7\\Laboratorio71\\Laboratorio71.csproj",
         "projectName": "Laboratorio71",
-        "projectPath": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio71\\Laboratorio7\\Laboratorio71.csproj",
+        "projectPath": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio7\\Laboratorio71\\Laboratorio71.csproj",
         "packagesPath": "C:\\Users\\siste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio71\\Laboratorio7\\obj\\",
+        "outputPath": "C:\\Users\\siste\\source\\repos\\ds4\\Laboratorio7\\Laboratorio7\\Laboratorio71\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
