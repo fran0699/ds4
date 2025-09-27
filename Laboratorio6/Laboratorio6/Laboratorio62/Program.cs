@@ -10,7 +10,12 @@
         }
         catch (FormatException ex)
         {
-            Console.WriteLine("No ha introducido un digito valido");
+            Console.WriteLine("No se ha introducido un digito valido");
+            num = -1;
+        }
+        catch (OverflowException ex)
+        {
+            Console.WriteLine("El numero introducido es muy grande");
             num = -1;
         }
         Console.WriteLine(num);
