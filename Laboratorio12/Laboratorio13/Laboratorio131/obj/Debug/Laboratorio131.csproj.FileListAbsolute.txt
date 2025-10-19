@@ -1,0 +1,11 @@
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\bin\Debug\Laboratorio131.exe.config
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\bin\Debug\Laboratorio131.exe
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\bin\Debug\Laboratorio131.pdb
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.csproj.AssemblyReference.cache
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.Form1.resources
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.Properties.Resources.resources
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.csproj.GenerateResource.cache
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.csproj.CoreCompileInputs.cache
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.exe
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.pdb
+C:\Users\Francisco Lata\source\repos\ds4\Laboratorio12\Laboratorio13\Laboratorio131\obj\Debug\Laboratorio131.exe.config
