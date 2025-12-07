@@ -1,0 +1,58 @@
+﻿@model System.Collections.Generic.List<GestorTareasWeb.Models.Tarea>
+
+@{
+    ViewBag.Title = "Listado de tareas";
+}
+
+<h2>Listado de tareas</h2>
+
+<p>
+    @Html.ActionLink("Crear nueva tarea", "Crear", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="tabla-tareas">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Fecha de creación</th>
+            <th>Fecha de vencimiento</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var tarea in Model)
+            {
+                <tr>
+                    <td>@tarea.Titulo</td>
+                    <td>@tarea.Descripcion</td>
+                    <td>@tarea.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@(tarea.FechaVencimiento.HasValue ? tarea.FechaVencimiento.Value.ToString("dd/MM/yyyy") : "")</td>
+                    <td>
+                        @(tarea.EstaCompletada ? "Completada" : "Pendiente")
+                        <br />
+                        @Html.ActionLink(
+                            tarea.EstaCompletada ? "Marcar como pendiente" : "Marcar como completada",
+                            "CambiarEstado",
+                            new { id = tarea.IdTarea }
+                        )
+                    </td>
+                    <td>
+                        @Html.ActionLink("Editar", "Editar", new { id = tarea.IdTarea }, new { @class = "btn btn-sm btn-warning" })
+                        @Html.Raw(" ")
+                        @Html.ActionLink("Eliminar", "Eliminar", new { id = tarea.IdTarea }, new { @class = "btn btn-sm btn-danger" })
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6">No hay tareas registradas.</td>
+            </tr>
+        }
+    </tbody>
+</table>

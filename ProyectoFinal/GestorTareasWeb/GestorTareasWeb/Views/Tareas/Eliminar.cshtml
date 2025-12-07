@@ -1,0 +1,37 @@
+﻿@model GestorTareasWeb.Models.Tarea
+
+@{
+    ViewBag.Title = "Eliminar tarea";
+}
+
+<h2>Eliminar tarea</h2>
+
+<h3>¿Está seguro que desea eliminar esta tarea?</h3>
+
+<div>
+    <h4>@Model.Titulo</h4>
+    <dl class="dl-horizontal">
+        <dt>Descripción</dt>
+        <dd>@Model.Descripcion</dd>
+
+        <dt>Fecha de creación</dt>
+        <dd>@Model.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</dd>
+
+        <dt>Fecha de vencimiento</dt>
+        <dd>@(Model.FechaVencimiento.HasValue ? Model.FechaVencimiento.Value.ToString("dd/MM/yyyy") : "")</dd>
+
+        <dt>Estado</dt>
+        <dd>@(Model.EstaCompletada ? "Completada" : "Pendiente")</dd>
+    </dl>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.IdTarea)
+
+    <p>
+        <input type="submit" value="Eliminar" class="btn btn-danger" />
+        @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-default" })
+    </p>
+}
